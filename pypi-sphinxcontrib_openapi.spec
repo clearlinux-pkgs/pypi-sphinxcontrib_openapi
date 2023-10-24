@@ -6,10 +6,10 @@
 # autospec commit: 250a666
 #
 Name     : pypi-sphinxcontrib_openapi
-Version  : 0.8.2
-Release  : 14
-URL      : https://files.pythonhosted.org/packages/7d/e3/5ee1d940816cf077d445fe424a91b58a7e3698d7ca1de2da9bf078102769/sphinxcontrib-openapi-0.8.2.tar.gz
-Source0  : https://files.pythonhosted.org/packages/7d/e3/5ee1d940816cf077d445fe424a91b58a7e3698d7ca1de2da9bf078102769/sphinxcontrib-openapi-0.8.2.tar.gz
+Version  : 0.8.3
+Release  : 15
+URL      : https://files.pythonhosted.org/packages/af/cd/9891f1c361b306e9f5e423039bdbf99a25c838c51ac820c10e986582c29a/sphinxcontrib-openapi-0.8.3.tar.gz
+Source0  : https://files.pythonhosted.org/packages/af/cd/9891f1c361b306e9f5e423039bdbf99a25c838c51ac820c10e986582c29a/sphinxcontrib-openapi-0.8.3.tar.gz
 Summary  : OpenAPI (fka Swagger) spec renderer for Sphinx
 Group    : Development/Tools
 License  : BSD-2-Clause
@@ -78,10 +78,10 @@ python3 components for the pypi-sphinxcontrib_openapi package.
 
 
 %prep
-%setup -q -n sphinxcontrib-openapi-0.8.2
-cd %{_builddir}/sphinxcontrib-openapi-0.8.2
+%setup -q -n sphinxcontrib-openapi-0.8.3
+cd %{_builddir}/sphinxcontrib-openapi-0.8.3
 pushd ..
-cp -a sphinxcontrib-openapi-0.8.2 buildavx2
+cp -a sphinxcontrib-openapi-0.8.3 buildavx2
 popd
 
 %build
@@ -89,7 +89,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1698159830
+export SOURCE_DATE_EPOCH=1698167723
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
