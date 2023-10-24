@@ -1,5 +1,5 @@
 PKG_NAME := pypi-sphinxcontrib_openapi
-URL = https://files.pythonhosted.org/packages/cd/5b/060ab6849defc1f938b6f391bbf569d226342d319db99488b3fc8cd7dbf1/sphinxcontrib-openapi-0.8.1.tar.gz
+URL = https://files.pythonhosted.org/packages/7d/e3/5ee1d940816cf077d445fe424a91b58a7e3698d7ca1de2da9bf078102769/sphinxcontrib-openapi-0.8.2.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
