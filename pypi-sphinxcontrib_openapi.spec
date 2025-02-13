@@ -7,7 +7,7 @@
 #
 Name     : pypi-sphinxcontrib_openapi
 Version  : 0.8.4
-Release  : 18
+Release  : 19
 URL      : https://files.pythonhosted.org/packages/c0/a7/66a5c9aba7dbbb0c2b050f60e71402818cbf5f127ace13ed971029cc745e/sphinxcontrib-openapi-0.8.4.tar.gz
 Source0  : https://files.pythonhosted.org/packages/c0/a7/66a5c9aba7dbbb0c2b050f60e71402818cbf5f127ace13ed971029cc745e/sphinxcontrib-openapi-0.8.4.tar.gz
 Summary  : OpenAPI (fka Swagger) spec renderer for Sphinx
